@@ -118,7 +118,8 @@ export default {
     });
 
     return {
-      contactLocal: this.contact,
+      // contactLocal: this.contact,
+      contactLocal: { ...this.contact },
       contactFormSchema,
     };
   },
